@@ -1,48 +1,85 @@
-# Diabetes CHD Detection System
+# 🫀 Heart Disease Prediction System using Deep Learning
 
-## 📌 Project Description
-This project is a Java-based application designed to predict the risk of Coronary Heart Disease (CHD) in diabetic patients. It includes multiple modules like User, Doctor, Lab, and Admin.
+## 📌 Abstract
 
-## 🛠️ Technologies Used
-- Java (Swing GUI)
-- MySQL Database
-- JDBC Connectivity
+This project focuses on early detection and prevention of coronary heart disease (CHD) in diabetic patients using deep learning techniques. Diabetes is a major cause of multiple health complications, especially heart disease.
 
-## 👥 Modules
-- User: Enter health data and check CHD risk
-- Doctor: View patient reports
-- Lab: Add test results
-- Admin: Manage users
+The proposed system uses an advanced model called **O-SBGC-LSTM (Optimal Scrutiny Boosted Graph Convolutional LSTM)** enhanced with the **Eurygaster Optimization Algorithm (EOA)** to improve prediction accuracy. The model captures both spatial and temporal patterns in medical data.
 
-## ⚙️ Features
-- Role-based login system
-- CHD risk prediction
-- Database storage
-- GUI-based system
+The system not only predicts disease risk but also provides preventive suggestions using fuzzy-based inference techniques. The proposed model achieves high accuracy and outperforms traditional machine learning methods.
 
-## 🚀 How to Run
-1. Import database.sql into MySQL
-2. Update DBConnection.java with your password
-3. Compile project:
-   javac -d . src/**/*.java
-4. Run:
-   java Main
+---
 
-## 🔑 Login Credentials
-Admin:
-- username: admin
-- password: admin123
+## 🎯 Objective
 
-Doctor:
-- username: doctor
-- password: doctor123
+* Predict heart disease risk in diabetic patients
+* Improve early detection using deep learning
+* Provide preventive recommendations
 
-Lab:
-- username: lab
-- password: lab123
+---
 
-## 📊 Output
-Displays CHD risk as HIGH or LOW based on input values.
+## ⚙️ Technologies Used
 
-## 📚 Author
-Dinakar
+* Java (J2EE, JSP, Servlets)
+* MySQL Database
+* Machine Learning / Deep Learning
+* Fuzzy Logic
+
+---
+
+## 🧠 Methodology
+
+* Data Preprocessing
+* Feature Extraction
+* O-SBGC-LSTM Model
+* Optimization using EOA
+* Risk Prediction
+
+---
+
+## 🧩 Modules
+
+* User
+* Admin
+* Doctor
+* Hospital
+* Lab Technician
+
+---
+
+## 💡 Features
+
+* Early disease prediction
+* High accuracy (>98%)
+* Suggestion system for prevention
+* User-friendly interface
+
+---
+
+## 📊 Advantages
+
+* Low latency
+* Better real-time performance
+* Improved accuracy over traditional methods
+
+---
+
+## 📁 Project Document
+
+Full project documentation is available in this repository.
+
+---
+
+## 🚀 Future Enhancements
+
+* Mobile app integration
+* Real-time health monitoring
+* Integration with wearable devices
+
+---
+
+## 📌 Conclusion
+
+The system effectively predicts heart disease risk and helps in early prevention, improving healthcare outcomes.
+
+---
